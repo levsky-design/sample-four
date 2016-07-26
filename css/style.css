@@ -1,0 +1,440 @@
+html {
+}
+
+body {
+}
+
+nav {
+    background:#fff;
+    height:90px;
+    z-index:170;
+    margin:0 auto;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;	
+}
+
+#bar {
+	margin: 0 auto;
+	width: 1200px;
+	height: 90px;
+}
+
+#logo {
+	float: left;
+	margin-top: 25px;
+	width: 120px;
+}
+
+#menu {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	width: 600px;
+	float: right;
+	text-align: right;
+	margin-top: 35px;
+}
+
+#menu a {
+	margin-left: 50px;
+	text-decoration: none;
+	color: black;
+}
+
+#menu a span {
+	color: white;
+	font-size: 16px;
+}
+
+#menu a:hover {
+}
+
+#menu a:hover span {
+	color: #e81b51;
+}
+
+#sekcja-landing-page {
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/photo.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover; /*chrome*/
+	-moz-background-size: cover; /*firefox*/
+	-o-background-size: cover; /*opera*/
+	background-size: cover;
+	height: 980px;
+}
+
+#landing-page-text {
+	position: absolute;
+    top: 55%;
+    width: 100%;
+    text-align: center;
+	float: right;
+}
+
+#landing-page-title {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-weight: bold;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 50px;
+    line-height: 50pt;
+    margin-top: -70px;	
+}
+
+#landing-page-title-slogan {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: white;
+	font-weight: 300;
+}
+
+#sekcja-about-us {
+}
+
+.section-header-left {
+    width: 50%;
+    height: 150px;
+    float: left;
+}
+
+.section-header-right {
+    width: 24.9%;
+    height: 150px;
+    float: left;
+    border-left: solid black 1px;
+    border-bottom: solid black 1px;
+}
+
+.section-header-title {
+    width: 25%;
+    height: 150px;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+	color: black;
+	font-weight: bold;
+	text-align: left;
+	font-size: 50px;
+    line-height: 300px;
+}
+
+.section-header-invert-left {
+	width: 25%;
+    height: 150px;
+    float: right;
+    border-right: solid black 1px;
+    border-bottom: solid black 1px;
+}
+
+.section-header-invert-right {
+	width: 49.9%;
+    height: 150px;
+    float: right; 
+}
+
+.section-header-invert-title {
+    width: 25%;
+    height: 150px;
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+	color: black;
+	font-weight: bold;
+	text-align: right;
+	font-size: 50px;
+    line-height: 300px;
+}
+
+#about-us-logo {
+    margin: 0 auto;
+    clear: both;
+}
+
+#about-us-logo img {
+    margin: 0 auto;
+    display: block;
+    padding: 100px 0 50px 0;
+}
+
+#about-us-text {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+	color: black;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.section-bottom {
+	margin-top: 50px;
+}
+
+.section-bottom-left {
+    width: 50%;
+    height: 40px;
+    float: left;
+}
+
+.section-bottom-right {
+    width: 49.9%;
+    border-left: solid black 1px;
+    height: 40px;
+    float: left;
+}
+
+.paka-photo {
+	display: inline-block;
+	width: 25%;
+}
+
+.paka-photo img {
+	width: 100%;
+}
+
+#paka-photo-bottom {
+	margin: -3px 0 0 0;
+}
+
+.paka-photo-bottom-left {
+	height: 40px;
+	width: 12.5%;
+	float: left;
+}
+
+.paka-photo-bottom-right {
+	height: 40px;
+	width: 12.44%;
+	float: left;
+	border-left: solid black 1px;
+}
+
+.symbol-member {
+	width: 25%;
+	text-align: center;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.info-member {
+	width: 25%;
+	text-align: center;
+	display: inline-block;
+	margin-top: 15px;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+    font-size: 14px;
+	font-weight: bold;
+	line-height: 18px;
+}
+
+#section-realizations {
+}
+
+#realizations-all {
+	clear: both;
+}
+
+.realizations {
+    margin: 100px 0 20px 0;
+	display: inline-block;
+	width: 25%;
+}
+
+.realizations img {
+	width: 100%;
+}
+
+.info-realization {
+	width: 25%;
+	text-align: center;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+    font-size: 14px;
+	font-weight: bold;
+	line-height: 18px;
+}
+
+.scroll {
+	margin: 0 auto;
+	width: 100%;
+    height: 50px;
+	border-bottom: solid #e81b51 1px;
+}
+
+.scroll span {
+	font-size: 38px;
+	margin-left: 12%;
+	line-height: 100px;
+	color: #e81b51;
+}
+
+#gallery-button {
+	margin: 60px auto 100px auto;
+}
+
+#gallery-button a {
+	background: url(../img/gallery.png) no-repeat;
+    display:block;
+    height:59px;
+    overflow:hidden;
+    width:204px;
+	margin: 0 auto;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	font-size: 16px;
+	line-height: 65px;
+}
+
+#gallery-button a:hover {
+	background-position: 0px -59px;
+	color: #e81b51;
+}
+
+#section-trusted-us {
+}
+
+#company-all {
+	clear: both;
+}
+
+.company {
+    margin: 100px 0 0 0;
+	display: inline-block;
+	width: 20%;
+}
+
+.company img {
+	width: 100%;
+}
+
+#section-contact {
+}
+
+#contact {
+	clear: both;
+}
+
+#map {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#map img {
+	width: 100%;
+	margin-top: 100px;
+}
+
+.map-bottom {
+	margin: 40px 0 10px 0;
+	display: inline-block;
+	width: 33.3%;
+	text-align: center;
+}
+
+.map-bottom-info {
+	margin: 0px 0 20px 0;
+	display: inline-block;
+	width: 33.3%;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase; 
+}
+
+footer {
+	background-color: black;
+	width: 100%;
+	height: 130px;
+	padding-top: 20px;
+	clear: both;
+	margin: 0 auto;
+}
+
+#footer-left {
+	width: 40%;
+	display: inline-block;
+}
+
+.footer-icon {
+	width: 6.66%;
+	text-align: center;
+	display: inline-block;
+	margin-top: 40px;
+}
+
+.footer-icon a.fb {
+	background: url(../img/fb.png) no-repeat;
+    display:block;
+    height:16px;
+    overflow:hidden;
+    width:7px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.footer-icon a.fb:hover {
+	background-position: 0px -16px;
+}
+
+.footer-icon a.tweet {
+	background: url(../img/tweet.png) no-repeat;
+    display:block;
+    height:11px;
+    overflow:hidden;
+    width:13px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.footer-icon a.tweet:hover {
+	background-position: 0px -11px;
+}
+
+.footer-icon a.gplus {
+	background: url(../img/gplus.png) no-repeat;
+    display:block;
+    height:17px;
+    overflow:hidden;
+    width:17px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.footer-icon a.gplus:hover {
+	background-position: 0px -17px;
+}
+
+#footer-right {
+	width: 40%;
+	display: inline-block;
+}
+
+#copy {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 auto;
+	font-size: 10px;
+	text-align: center;
+	vertical-align: bottom;
+	margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
